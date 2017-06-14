@@ -1,1 +1,1 @@
-Program #6 Reaction Game Witha Button  and 2 LEDs
+Program #6 Reaction Game With a Button  and 2 LEDs
