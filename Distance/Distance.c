@@ -25,6 +25,41 @@ int main()
     print("%c%c", HOME, CLREOL);
     distance = duration / 148;
     print("Distance = %d inches\n", distance);
+    
+    if (distance ==  9)
+    {
+     high(15);
+     pause(250);
+     low(15);
+     pause(250); 
+    }      
+    else
+    {
+      low(15);
+    }      
+       if (distance == 8 )
+    {
+     high(15);
+     pause(200);
+     low(15);
+     pause(200); 
+    }      
+    else
+    {
+      low(15);
+    } 
+     if (distance < 8)
+    {
+     high(15);
+     pause(50);
+     low(15);
+     pause(50); 
+    }      
+    else
+    {
+      low(15);
+    }           
     pause(250);
+    
   }  
 }
